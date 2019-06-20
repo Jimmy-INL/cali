@@ -1,3 +1,8 @@
+diversipy
+openturns
+pyDOE
+numpy
+numba
 # local package
 -e .
 
