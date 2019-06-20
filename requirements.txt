@@ -1,3 +1,12 @@
+diversipy
+openturns
+pyDOE
+numpy
+numba
+pandas
+matplotlib
+joblib
+tqdm
 # local package
 -e .
 
