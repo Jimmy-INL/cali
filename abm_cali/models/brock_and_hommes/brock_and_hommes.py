@@ -5,8 +5,8 @@ from numba import jit
 import numpy as np
 from numpy.random import RandomState
 
-from models._BaseAbm import _BaseAbm
-from models import utils
+from .._BaseAbm import _BaseAbm
+from .. import utils
 
 
 calibrated_params = {'names': ['beta', 'R', 'b1', 'b2', 'g1 ', 'g2', 'C', 'eta',

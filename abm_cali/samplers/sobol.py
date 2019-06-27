@@ -5,8 +5,9 @@ Wrappers for  Openturns samplers
 """
 
 import numpy as np
-from samplers.base_sampler import BaseSampler
 import openturns as ot
+
+from .base_sampler import BaseSampler
 
 
 class BaseOpenTurnsSequence(BaseSampler):

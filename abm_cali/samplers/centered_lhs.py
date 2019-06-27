@@ -4,7 +4,7 @@ https://pythonhosted.org/pyDOE/randomized.html
 
 import pyDOE
 
-from samplers.base_sampler import BaseSampler
+from .base_sampler import BaseSampler
 
 
 class LhsCenter(BaseSampler):
